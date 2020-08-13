@@ -1,0 +1,118 @@
+body{
+    background: white;
+}
+.header{
+    background: cyan;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.vl {
+    border-left: 1px solid black;
+    height: 400px; 
+    margin-left: -100px;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(88, 88, 88, 0.75);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: black;
+} 
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+} 
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+} 
+.author-info {
+    margin-left: 30px;
+}
+a, a:hover {
+    color: darkcyan;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+}
+.features .btn {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover{
+    border: 1px solid white;
+    background: white;
+    color: black; 
+}
+.follow:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.page-footer {
+    background-color: white;
+    color: #ccc;
+    padding: 30px 0 30px;
+} 
+.page-footer img {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 500px;
+}
+.page-footer strong {
+    color: black;
+}
+.page-footer p {
+    color: grey;
+}
+small a {
+    color: black;
+}
+small a:hover {
+    color: darkcyan;
+}
+.footer-copyright {
+    color: #666;
+}
+@media (max-width: 575.98px){ 
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    } 
+    .description h1 {
+        font-size: 2em;
+        margin-top: 10%;
+        text-align: center;
+    } 
+    .features {
+        margin: 0;
+    } 
+}
