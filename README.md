@@ -1,11 +1,10 @@
 # Portfolio
 ## Attractive and responsive template
 ### Maintained by @tarung10
-<hr>
 <img src="screenshot.png">
 <br>
 Installation:
-   git clone https://github.com/tarung10/portfolio.git
+   * git clone https://github.com/tarung10/portfolio.git
    
 Usage:
    1. Replace your picture with author.png in img directory.
