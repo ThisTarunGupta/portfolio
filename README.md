@@ -1,7 +1,7 @@
 # Portfolio
 ## Attractive and responsive template
 ### Maintained by @tarung10
-<img src="screenshot.png" height="500px" width="1000px">
+![screenshot](screenshot.png)
 <br>
 Installation:
    * git clone https://github.com/tarung10/portfolio.git
