@@ -10,7 +10,7 @@ body{
 .vl {
     border-left: 1px solid black;
     height: 400px; 
-    margin-left: -100px;
+    margin-left: -1px;
 }
 .overlay{
     position: absolute;
