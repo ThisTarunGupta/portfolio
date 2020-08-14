@@ -6,8 +6,7 @@ $(document).ready(function(){
         $('.author-follow').css('margin-left', '30px');
         $('.author-follow').hide();
         $('.vl').hide();
-        $('span').html('<hr>')
-        flag = false;
+        $('span').html('<hr>');
     }
     
     if ($('.about').height() > "400"){
